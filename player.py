@@ -45,6 +45,11 @@ def next_music():
 
     listbox.delete(0, END)
 
+    show()
+
+    listbox.select_set(new_index)
+    running_song['text'] = playing
+
 def previous_music():
     playing = running_song['text']
     index = songs.index(playing)
