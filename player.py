@@ -14,7 +14,7 @@ co4 = "pink"
 
 
 window = Tk()
-window.title("")
+window.title("ZASS MUSIC PLAYER")
 window.geometry('352x255')
 window.configure(background=co1)
 window.resizable(width=FALSE, height=FALSE)
